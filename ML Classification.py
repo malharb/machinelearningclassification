@@ -49,7 +49,7 @@ logistic_accuracy = accuracy_score(y_test,predictions_lr)
 knn_accuracy = accuracy_score(y_test,predictions_knn)
 
 print(f"Accuracy using a Logistic Regression algorithm: {logistic_accuracy}")
-print(f"Accuracy using a K Nearest Neighbors algorithm: {knn_accuracy}")
+print(f"Accuracy using a KNN algorithm: {knn_accuracy}")
 
 input('Press ENTER to exit')
 
